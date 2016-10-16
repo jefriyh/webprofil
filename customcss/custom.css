@@ -1,0 +1,210 @@
+body{
+    margin: auto;
+  }
+
+.navbar-default {
+    background-color: #3A539B;
+    border-color: #3A539B;
+    
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #FFFFFF;
+
+}
+
+
+.logo {
+    display: inline-block;
+    vertical-align: top;
+    width: 90px;
+    height: 60px;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 4px;  
+}
+#menu{
+  float: right;
+  margin-right: 20px;
+}
+.navigation-bar ul {
+  padding: 0px;
+  margin: 0px;
+  text-align: right;
+  display:inline-block;
+}
+
+.navigation-bar li {
+  list-style-type: none;
+  padding: 0px;
+  height: 20px;
+  margin-bottom: 4px;
+  display: inline;
+}
+
+.navigation-bar li a {
+  color: white;
+  font-size: 16px;
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  line-height: 70px;
+  padding: 0 15px;
+  opacity: 0.7;
+}
+
+
+
+.header-home{
+    width:100%;
+    background-repeat: cover;        
+    position: relative;                 
+    height: 510px;       
+    margin-left: auto;      
+    margin-right: auto;    
+    background-image: url("../img/earth.png");
+  }
+
+  #title-home{
+    font-family: Arial;
+    font-size: 36px;
+    letter-spacing: 1px;
+    text-align: center;
+    font-weight: 600;
+    color: white;
+    padding-top: 6em;
+
+  }
+
+  #title-home > img{
+    width:60px;
+    height: auto;
+    padding-top: 1em;
+  }
+
+
+   .skill-home{
+    width: 100%;
+    height: 400px;
+    display: inline-block;
+    text-align: center;
+  }
+
+  #skill-title{
+    font-family: Arial;
+    font-size: 26px;
+    font-weight: 400;
+    color: #2C3E50;
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-top: 2em;
+
+  }
+
+  #skill-image img{
+    margin-top: 2em;
+    width: 200px;
+    height: auto;
+  }
+
+
+  .hoby-home{
+    width: 100%;
+    height:auto;
+    background-color: #52B3D9;
+    text-align: center;
+  }
+
+  .hoby-desc{
+    width:30%;
+    height: auto;
+    display: inline-block;
+    padding-top: 3em;
+    padding-bottom: 3em;
+    text-align: center;
+    color:white;
+    letter-spacing: 1px;
+    
+  }
+  .hoby-desc > img{
+    width:40%;
+    height: 40%;
+
+  }
+  #title-desc {
+    text-align: center;
+      color:white;
+      font-size: 20px;
+      font-weight: 600;
+      font-family: Arial;
+  }
+ #desc{
+    text-align: center;
+    font-family: Arial;
+    font-size: 14px;
+    color:white;
+  }
+
+  @media screen and (max-width: 600px) {
+      .hoby-desc {
+       width: 100%;
+       height: auto;
+       padding-top: 3em;
+       padding-bottom: 3em;
+      
+    }
+}
+
+.project-home{
+    background-color: #F64747;
+    width: 100%;
+    height: 50%;
+     text-align: center;
+  }
+
+  #project-title{
+    font-family:Arial;
+    font-size:30px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: white;
+    text-align: center;
+    padding-top: 2em;
+  }
+
+  #project-image > img{
+
+    width: 80%;
+    height: auto;
+  }
+
+  
+  .footer-home{
+    width:100%;
+    height: 40px;
+    background-color: #3A539B;
+
+    font-family: Arial;
+    font-size:16px;
+    color: white;
+    text-align: center;
+    padding-top: 1em;
+  }
+
+  .footer-left{
+    margin-left: 2em;
+    float: left;
+  }
+  .footer-right{
+    margin-right: 2em;
+    float:right;
+    text-decoration: none;
+    color: white;
+  }
+.fa {
+  padding-right: 5px;
+}
+
+.footer-right > a{
+  text-decoration: none;
+  color:white;
+}
